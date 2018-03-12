@@ -1,0 +1,1 @@
+export const SET_SAMPLE_DATA = 'SET_SAMPLE_DATA'
