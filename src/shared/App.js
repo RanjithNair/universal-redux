@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { hot } from 'react-hot-loader'
 import routes from './routes'
 import { Route, Switch } from 'react-router-dom'
 import Navbar from './Navbar'
@@ -23,4 +24,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default hot(module)(App)

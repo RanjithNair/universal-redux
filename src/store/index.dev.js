@@ -4,6 +4,8 @@ import rootReducer from './rootReducer'
 import { routerMiddleware } from 'react-router-redux'
 
 export default function configureStore (initialState, history = null) {
+  console.log('insie config store')
+  console.log('initial state: ' + JSON.stringify(initialState))
   /* Middleware
    * Configure this array with the middleware that you want included
    */
@@ -29,8 +31,8 @@ export default function configureStore (initialState, history = null) {
 
   if (module.hot) {
     // Enable Webpack hot module replacement for reducers
-    module.hot.accept('../reducers', () => {
-      const nextRootReducer = require('../reducers').default
+    module.hot.accept('./rootReducer.js', () => {
+      const nextRootReducer = require('./rootReducer').default
       store.replaceReducer(nextRootReducer)
     })
   }

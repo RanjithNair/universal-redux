@@ -1,0 +1,36 @@
+{
+  "name": "Universal Redux Boilerplate PWA",
+  "short_name": "Universal Redux Boilerplate PWA",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0000FF",
+  "background_color": "#0000FF",
+  "icons": [
+    {
+      "src": "/icons/AppIcon_48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/icons/AppIcon_64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/icons/AppIcon_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/icons/AppIcon_256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/icons/AppIcon_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

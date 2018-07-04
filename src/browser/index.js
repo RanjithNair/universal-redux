@@ -8,6 +8,8 @@ import createHistory from 'history/createBrowserHistory'
 
 const history = createHistory()
 const preloadedState = window.__INITIAL_STATE__
+console.log('inside browser')
+console.log(window.__INITIAL_STATE__)
 delete window.__PRELOADED_STATE__
 const store = configureStore(preloadedState, history)
 
